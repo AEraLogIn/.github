@@ -2,47 +2,35 @@
 
 ### Human & Agent Identity Infrastructure
 
-**Building infrastructure for identity, authorization, delegation and interoperability across AI agent ecosystems.**
+**Building infrastructure for AI agent identity, authorization, delegated authority and cross-protocol interoperability.**
 
-AEraLogIn is an evolving infrastructure project exploring how humans, AI agents and execution runtimes can interact across clearly defined trust boundaries.
+AEraLogIn is an actively developed technical project for separating **human ownership, agent identity, runtime authority, execution and evidence**.
 
-### Architecture
+**Human ownership → Agent → Runtime → Authorization → Action → Evidence**
 
-**Human → Agent → Runtime → A2A**
+## Our focus
 
-Our architecture separates four fundamental concerns:
+- **Machine identity:** Distinct Agent and Runtime identities, signed requests and revocation-aware verification.
+- **A2A interoperability:** Implemented inbound gateway and task lifecycle within documented test scope.
+- **Authorization and security:** Fine-grained policy, runtime isolation and cross-boundary enforcement are still being strengthened.
+- **Delegation and evidence:** Multi-agent delegated execution and independently verifiable action receipts remain planned and release-gated.
+- **Human access:** Wallet and provider-neutral login foundations exist; production-provider verification and account-management work remain.
+- **Future protocol adapters:** MCP, ANP, PAP and DID are being evaluated, without a present conformance claim.
 
-- **Human Identity** — Authentication and identity management for human users.
-- **Agent Identity** — Distinct identities and ownership relationships for AI agents.
-- **Runtime Identity** — Separation between agents and their execution environments.
-- **Cross-System Communication** — Standards-oriented interaction between agents across system boundaries.
+## Development roadmap
 
-### Development Focus
+**[Explore the public AEraLogIn roadmap →](https://github.com/AEraLogIn/.github/blob/main/ROADMAP.md)**
 
-- Identity and authentication
-- Agent ownership and authorization
-- Delegated authority and revocation
-- Runtime isolation and trust boundaries
-- A2A protocol interoperability
-- Security enforcement and verification
-- Future cross-protocol integration, including ANP and MCP
+Our roadmap distinguishes **implemented/internal-tested**, **partial**, and **planned/release-gated** work, with emphasis on security dependencies and verified scope.
 
-### Project Status
+> **Project status:** Active development. No production security certification is implied.
 
-**Active development — not production-security certified.**
+## Collaboration
 
-AEraLogIn is under active development. Some architectural components have been implemented and tested, while others remain experimental or planned.
+We welcome engineering discussions, interoperability research and critical security feedback. Public code and contribution guidance will be introduced when individual components are ready.
 
-Documentation and future public repositories will distinguish implemented capabilities, known limitations and proposed functionality.
-
-### Collaboration
-
-We welcome technical discussions about agent identity, authorization, delegation, interoperability and security architecture.
-
-**Website:** https://aeralogin.com
-
-**GitHub:** https://github.com/AEraLogIn
+[Website](https://aeralogin.com) · [GitHub organization](https://github.com/AEraLogIn)
 
 ---
 
-*Identity establishes who participates. Authorization determines what they may do. Enforcement determines what they can actually execute.*
+*Identity establishes who participates. Authorization determines what they may do. Enforcement and evidence establish what can be trusted.*
